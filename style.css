@@ -1,0 +1,74 @@
+* {
+   font-family: 'Courier New', Courier, monospace;
+   color: #555;
+}
+
+button {
+   padding: 10px 20px;
+   background-color: #ccc;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.card {
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+   border: 1px solid #ccc;
+   box-shadow: 2px 2px 5px #ccc;
+   border-radius: 10px;
+}
+
+.header {
+   padding: 10px;
+   border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+   margin: 0;
+}
+
+.main {
+   display: flex;
+   justify-content: space-between;
+}
+
+.column1 {
+   width: 30%;
+   padding: 20px;
+   border-right: 1px solid #ccc;
+}
+
+.column2 {
+   width: 70%;
+   padding: 20px;
+}
+
+.buttons {
+   display: flex;
+   justify-content: flex-end;
+   padding: 20px;
+   border-top: 1px solid #ccc;
+}
+
+.buttons button {
+   font-weight: bolder;
+}
+
+.clear-button {
+   background-color: lightcoral;
+   border-bottom: 4px solid #c7606e;
+   margin-right: 1em;
+}
+
+.download-button {
+   background-color: aquamarine;
+   border-bottom: 4px solid #00bfff;
+}
+
+@media (max-width: 768px) {
+   .card {
+      width: 80%;
+   }
+}
